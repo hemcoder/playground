@@ -20,4 +20,8 @@ public class HelloWorldController {
 		model.addAttribute("message", message);
 		return "hi";
 	}
+	
+	public void message(){
+		System.out.println("git test");
+	}
 }
